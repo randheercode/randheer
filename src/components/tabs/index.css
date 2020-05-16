@@ -1,0 +1,69 @@
+.Tabs {
+    background-color: #55aaff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tab-List {
+    padding: 0px;
+}
+
+.Tab-List-Item {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #55aaff;
+    border-radius: 4px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 12px 8px 12px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.Tab-List-Item:hover {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #51a1f1;
+    border-radius: 4px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 12px 8px 12px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.Tab-List-Item:active {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #419af1;
+    border-radius: 4px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 12px 8px 12px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.Tab-List-Item-Active {
+    color: #55aaff;
+    background-color: #ffffff;
+    border-color: #55aaff;
+}
+
+.Tab-List-Item-Active:hover {
+    color: #55aaff;
+    background-color: #fafafa;
+    border-color: #ffffff;
+}
+
+.Tab-List-Item-Active:active {
+    color: #55aaff;
+    background-color: #f1f1f1;
+    border-color: #ffffff;
+}
